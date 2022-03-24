@@ -14,7 +14,7 @@ class User
   // Nous déclarons une méthode dont le seul but est d'afficher un texte.
   public function Personnage()
   {
-    echo "J'ai ".$this->Vie_." de vie et je m'apelle  ".$this->Peusdo_."  ";
+    echo "J'ai ".$this->Vie_." de vie et je m'apelle  ".$this->Pseudo_."  ";
   }
 
   public function Attaquer($target)
