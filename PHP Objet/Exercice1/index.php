@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <link rel="stylesheet" href="main.css">
+        <title> Exercice 1</title>
     </head>
     <body>
 
