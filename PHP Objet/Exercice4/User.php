@@ -22,7 +22,7 @@ class User
 
     echo "<p>".$this-> Pseudo_." attaque ".$target-> Pseudo_."</p>";
     $target-> Vie_ = $target-> Vie_ - 50;
-    echo "<p>".$target-> Pseudo_." a pris 50 de dégat </p>";
+    echo "<p>".$target-> Pseudo_." a pris 50 de dégats </p>";
   }
 
 
@@ -31,7 +31,7 @@ class User
     
     echo "<p>".$deff-> Pseudo_." riposte </p>";
     $this-> Vie_ = $this-> Vie_ - 50;
-    echo"<p>Théo a maintenant ".$this-> Vie_."</p>";
+    echo"<p>Théo a maintenant ".$this-> Vie_." pv</p>";
 
   }
 }
